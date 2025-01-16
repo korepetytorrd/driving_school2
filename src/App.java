@@ -14,12 +14,12 @@ public class App {
 
         System.out.println("Twój email i hasło to:" + '\n' + email + '\n' + haslo);
        
+        LoginManager.login(email, haslo);
+        
         
         
 
     }
 
-    public static User login(String email, String haslo){
-      return User(email,haslo);
-    }
+    
 }
