@@ -1,3 +1,4 @@
+
 public class LoginManager {
 
     String email;
@@ -6,7 +7,7 @@ public class LoginManager {
     public static User login(String email, String haslo){
         FileManager.readUsersFromFile("user.txt");
         
-        return User(email,haslo);
+        return new User(email,haslo);
       }
     
 
